@@ -1,0 +1,65 @@
+body {
+	font-family: 'RalewaySemiBold', Helvetica, sans-serif;
+	font-size: 16px;
+	width: 400px;
+	padding-top: 60px;
+	color: #333333;
+}
+
+.topbar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 40px;
+	width: 100%;
+	background-color: #e60909;
+}
+
+.topbar-inner {
+	padding: 12px 10px 10px 10px;
+	color: white;
+}
+
+.app {
+	width: 90%;
+	margin: 0 auto 20px auto;
+}
+
+.emphasis {
+	font-family: 'RalewayBold', Helvetica, sans-serif;
+}
+
+.brand {
+	font-size: 18px;
+	text-align: center;
+}
+
+.variable, .goal {
+	color: #e60909;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.table td, .table th {
+	text-align: center;
+}
+
+.counters {
+	text-align: right;
+}
+
+input#submission {
+	font-family: 'RalewaySemiBold', Helvetica, sans-serif;
+	width: calc(100% - 16px);
+	margin: 0;
+	border: 2px solid #e60909;
+  box-shadow: none;
+}
+
+#notifications {
+	text-align: center;
+	margin-top: 20px;
+	color: #e60909;
+}
