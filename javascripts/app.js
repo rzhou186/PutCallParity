@@ -30,7 +30,7 @@
   function generateNewVars() {
     stockPrice = Math.floor(Math.random() * 8999 + 1000) / 100;
     reverseConversion = Math.floor(Math.random() * 400 - 200) / 100;
-    strike = Math.floor(stockPrice / 5) * 5 + Math.floor(Math.random() * 4 - 2);
+    strike = Math.floor(stockPrice / 5 + Math.floor(Math.random() * 2 - 1)) * 5;
     parity = Math.abs(stockPrice + reverseConversion - strike);
     lesser = Math.floor(Math.random() * 450 + 50) / 100;
     greater = lesser + parity;
