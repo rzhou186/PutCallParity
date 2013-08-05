@@ -25,6 +25,10 @@
       <div class="counters">
         <span id="correct" class="variable"></span> correct / <span id="total" class="variable"></span> total
       </div>
+
+      <div class="timer">
+        Time elapsed: <span id="timer" class="variable"></span> seconds
+      </div>
       <br>
 
       <div>
@@ -49,6 +53,7 @@
             <th id="call-label" class="emphasis">Call</th>
             <th class="emphasis">Strike</th>
             <th id="put-label" class="emphasis">Put</th>
+            <!-- <th id="straddle-label" class="emphasis">Straddle</th> -->
           </tr>
         </thead>
         <tbody>
@@ -56,12 +61,13 @@
             <td>$ <span id="call" class="variable"></span></td>
             <td>$ <span id="strike" class="variable"></span></td>
             <td>$ <span id="put" class="variable"></span></td>
+            <!-- <td>$ <span id="straddle" class="variable"></span> -->
           </tr>
         </tbody>
       </table>
 
       <input type="text" id="submission" placeholder="Hit enter key to submit...">
-      <div id="notifications">No current notifications.</div>
+      <div id="notifications"></div>
 
     </div>
 

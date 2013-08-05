@@ -50,6 +50,10 @@ body {
 	text-align: right;
 }
 
+.timer {
+	text-align: right;
+}
+
 input#submission {
 	font-family: 'RalewaySemiBold', Helvetica, sans-serif;
 	width: calc(100% - 16px);
