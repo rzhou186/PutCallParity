@@ -54,6 +54,8 @@
       put = greater;
     }
 
+    call_label = "Call";
+    put_label = "Put";
     // Random chance of replacing one of the columns with a straddle
     straddleColumn = Math.floor(Math.random() * 3);
     if (straddleColumn == 0) {
@@ -96,7 +98,7 @@
     $("#put-label").removeClass("goal");
   }
 
-// Relabel something as Straddle, if necessary
+
   function applyHidden() {
     if (hidden === "call") {
       $("#call-label").addClass("goal");
